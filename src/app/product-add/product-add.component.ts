@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-add.component.scss']
 })
 export class ProductAddComponent implements OnInit {
-
-  constructor() { }
+  title = 'Test'
+  constructor() {
+   }
 
   ngOnInit(): void {
+    
   }
 
 }
